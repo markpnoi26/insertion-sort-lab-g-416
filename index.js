@@ -5,7 +5,6 @@ function findMinAndRemove(array){
       min = element
     } 
   })
-  return min
 }
 
 function insertionSort(array){
