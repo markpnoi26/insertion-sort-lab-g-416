@@ -21,7 +21,3 @@ function insertionSort(array){
   return sortedArray
 }
 
-
-let array = [12, 10, 9, 14, 1, 3, 5, 11, 6, 15, 16, 13, 2, 4, 8, 7]
-
-console.log(insertionSort(array))
