@@ -11,5 +11,10 @@ function findMinAndRemove(array){
 }
 
 function insertionSort(array){
-
+  let sortedArray = []
+  if (array.length === 1) {
+    sortedArray.push(array[0])
+  } else if (array.length < 1) {
+    sortedArray.push()
+  }
 }
