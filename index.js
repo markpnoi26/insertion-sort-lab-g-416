@@ -3,6 +3,7 @@ function findMinAndRemove(array){
   array.forEach(element => {
     if (element < min) {
       min = element
+      array.splice(indexOf(element))
     } 
   })
   return min
